@@ -1,12 +1,12 @@
 .{
     .name = "capstone-bindings-zig",
-    .version = "5.0.1",
+    .version = "5.0.3",
     .minimum_zig_version = "0.14.0",
 
     .dependencies = .{
         .capstone = .{
-            .url = "git+https://github.com/allyourcodebase/capstone.git#5.0.1-1",
-            .hash = "1220f284ea55271b5b68edb4471d10c622e5d5c220dd342c6e96ff50d3b801f46486",
+            .url = "git+https://github.com/felikcat/capstone.git?ref=5.0.3#44390c7c0af73eb6f5f99ca381677be202e8cedf",
+            .hash = "1220d5bc3946778b2214dbf8b7a05fec547da6a236a9e08334246bbfdda55e532d70",
         },
     },
 

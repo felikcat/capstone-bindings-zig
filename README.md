@@ -1,11 +1,11 @@
 # capstone-bindings-zig
 
 ## Introduction
-Capstone natively works with Zig because of `translate-c`, but i always find it more pleasent to use
-Zig's features whenever i write anything, so i decided to create those bindings.
+Capstone natively works with Zig because of `translate-c`, but I always find it more pleasent to use
+Zig's features whenever I write anything, so I decided to create those bindings.
 
 ## Example
-Simple example, i believe i snatched it from some of the tests in capstone itself.
+Simple example, I believe I snatched it from some of the tests in capstone itself.
 
 ## Remarks
 > [!WARNING]
@@ -13,7 +13,7 @@ Simple example, i believe i snatched it from some of the tests in capstone itsel
 > If you encounter any Issues / Bugs / API Concerns, please open an Issue.
 
 ## Future plans
-The API is probably not 100% as i want it yet, so changes are to be expected, and that's where especially you,
+The API is probably not 100% as I want it yet, so changes are to be expected, and that's where especially you,
 the user comes into play. If you have ideas on how to improve the API design, don't shy away from creating an
 issue.
 
@@ -42,7 +42,7 @@ pub fn main() !void {
 }
 ```
 
-that gives the following output:
+That gives the following output:
 ```
 0: src.insn.Insn@7feca4d0b000: 0x1000   push    rbp
 1: src.insn.Insn@7feca4d0b0f8: 0x1001   mov     rax, qword ptr [rip + 0x13b8]
